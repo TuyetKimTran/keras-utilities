@@ -1,5 +1,5 @@
 from keras import backend as K, regularizers, constraints, initializers
-from keras.engine.topology import Layer
+from tensorflow.keras.layers import Layer
 
 
 def dot_product(x, kernel):
